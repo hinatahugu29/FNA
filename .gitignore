@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Unignore documentation related files
+!docs/
+!docs/**
+!mkdocs.yml
+!.gitignore
+
+# Explicitly ignore python code just in case
+__init__.py
+*.py
+__pycache__/
+
+# Ignore agent logs
+agent-work-log.json
